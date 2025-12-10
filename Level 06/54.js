@@ -1,9 +1,17 @@
-let arr = [45,69,67,33,106,104];
-let min = arr[0];
+// let arr = [45,69,67,33,106,104];
+// let min = arr[0];
 
-for(let i=0; i< arr.length; i++){
-    if(arr[i] <= min){
-        min = arr[i];
-    }
-}
+// for(let i=0; i< arr.length; i++){
+//     if(arr[i] <= min){
+//         min = arr[i];
+//     }
+// }
+// console.log(min);
+
+// another Method 
+
+let arr = [111,45,69,67,106];
+
+
+let min = Math.min(...arr);
 console.log(min);
