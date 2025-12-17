@@ -1,7 +1,11 @@
-let arr = [1,2,3,4];
+let arr = [1, 2, 3, 4];
+let isSorted = true;
 
-if(arr.sort() == true){
-    console.log("True")
-} else{
-    console.log("False");
+for (let i = 1; i < arr.length; i++) {
+    if (arr[i] < arr[i - 1]) {
+        isSorted = false;
+        break;
+    }
 }
+
+console.log(isSorted);

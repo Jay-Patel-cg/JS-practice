@@ -1,0 +1,6 @@
+function cToF(c) {
+  return (c * 9/5) + 32;
+}
+console.log(cToF(0));
+console.log(cToF(25));
+console.log(cToF(100));
